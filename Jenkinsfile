@@ -51,7 +51,6 @@ pipeline {
             steps {             
                 echo 'e2e Test'
             }
-            }
             post {
                 always {
                     echo 'Cleanup'
